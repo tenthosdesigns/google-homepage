@@ -17,7 +17,17 @@
     
     /* Position searchbar */
     display: block;
-    margin-top: 12px;
+    margin-top: 24px;
     margin-right: auto;
     margin-left: auto;
+
+    /* appearance */
+    /* make textbox border invisible & add visual border
+    further out to which the border radius applies */
+    //border-radius: 12;
+}
+
+#search-buttons {
+    display: block;
+    margin: auto;
 }

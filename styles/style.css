@@ -1,11 +1,23 @@
 #main-logo {
     /* Rescale logo */
-    --main-logo-pc-adjustment: 25%;
+    --main-logo-pc-adjustment: 29%;
     //height: var(--main-logo-pc-adjustment);
     width: var(--main-logo-pc-adjustment);
 
     /* Position logo */
+    padding-top: 20%;
     display: block;
     margin: auto;
 
+}
+
+#searchbar {
+    /* Resize searchbar */
+    width: 50%;
+    
+    /* Position searchbar */
+    display: block;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
 }

@@ -1,0 +1,11 @@
+#main-logo {
+    /* Rescale logo */
+    --main-logo-pc-adjustment: 25%;
+    //height: var(--main-logo-pc-adjustment);
+    width: var(--main-logo-pc-adjustment);
+
+    /* Position logo */
+    display: block;
+    margin: auto;
+
+}

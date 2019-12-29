@@ -1,11 +1,11 @@
 #main-logo {
     /* Rescale logo */
-    --main-logo-pc-adjustment: 29%;
+    --main-logo-pc-adjustment: 272px;
     //height: var(--main-logo-pc-adjustment);
     width: var(--main-logo-pc-adjustment);
 
     /* Position logo */
-    padding-top: 20%;
+    padding-top: 190px;
     display: block;
     margin: auto;
 
@@ -13,7 +13,7 @@
 
 #searchbar {
     /* Resize searchbar */
-    width: 50%;
+    width: 480px;
     
     /* Position searchbar */
     display: block;
@@ -24,10 +24,11 @@
     /* appearance */
     /* make textbox border invisible & add visual border
     further out to which the border radius applies */
-    //border-radius: 12;
+    //border-radius: 12px;
 }
 
 #search-buttons {
     display: block;
     margin: auto;
+    width: 260px;
 }

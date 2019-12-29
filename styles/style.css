@@ -85,10 +85,14 @@ li a {
     margin-right: auto;
     margin-left: auto;
 
-    /* appearance */
-    /* make textbox border invisible & add visual border
-    further out to which the border radius applies */
-    //border-radius: 12px;
+    /* Appearance */
+    padding: 12px;
+    padding-left: 24px;
+    border: 1px solid #e3e4e8;;
+    border-radius: 24px;
+
+    /* Magnifying-glass image */
+    background: white url("../images/magnifying-glass.png") 6px/3% no-repeat;
 }
 
 #search-buttons {

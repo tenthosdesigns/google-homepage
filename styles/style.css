@@ -1,3 +1,6 @@
+/**********************/
+/*** NAVIGATION BARS **/
+/**********************/
 .horizontal-bar-list {
     list-style-type: none;
     margin: 0;
@@ -5,11 +8,15 @@
     overflow: hidden;
 }
 
-.horizontal-bar-item {
+.horizontal-bar-right-item {
     float: right;
 }
 
-.horizontal-bar-item a {
+.horizontal-bar-left-item {
+    float: left;
+}
+
+li a {
     /* Text style */
     font-family: arial, sans-serif;
     font-size: 13px;
@@ -21,7 +28,7 @@
     text-decoration: none;
 }
 
-.horizontal-bar-item a:hover {
+.horizontal-bar-right-item a:hover, .horizontal-bar-left-item a:hover {
     color: grey;
     text-decoration: underline;
 }
@@ -36,10 +43,9 @@
     border-radius: 2px;
 }
 
-horizontal-bar-item #sign-in a:hover {
-
-}
-
+/**********************/
+/***** MID-SECTION ****/
+/**********************/
 #main-logo {
     /* Rescale logo */
     --main-logo-pc-adjustment: 272px;
@@ -50,7 +56,6 @@ horizontal-bar-item #sign-in a:hover {
     padding-top: 160px;
     display: block;
     margin: auto;
-
 }
 
 #searchbar {

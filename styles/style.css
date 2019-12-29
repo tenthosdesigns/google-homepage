@@ -13,8 +13,8 @@
 }
 
 #footer {
-    margin-top: 490px;
-    padding: 0px;
+    margin-top: 454px;
+    padding: 0;
     background-color: #f2f2f2;
     border: 1px solid #e4e4e4;
 }
@@ -96,7 +96,24 @@ li a {
 }
 
 #search-buttons {
+    /* Positioning */
     display: block;
     margin: auto;
-    width: 260px;
+    padding-top: 24px;
+    width: 320px;
+}
+
+#search-buttons input {
+    /* Appearance */
+    background-color: #f2f2f2;
+    border: 1px solid #e4e4e4;
+    border: none;
+    padding: 12px 24px;
+    margin: 0 4px;
+    border-radius: 5px;
+    color: rgb(90, 90, 90);
+    text-align: center;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
 }

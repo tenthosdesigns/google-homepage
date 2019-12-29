@@ -12,7 +12,22 @@
     float: right;
 }
 
-.horizontal-bar-left-item {
+#footer {
+    margin-top: 490px;
+    padding: 0px;
+    background-color: #f2f2f2;
+    border: 1px solid #e4e4e4;
+}
+
+#footer a {
+    color: #5f6368;
+}
+
+.horizontal-bar-bottomright-item {
+    float: right;
+}
+
+.horizontal-bar-bottomleft-item {
     float: left;
 }
 
@@ -26,9 +41,11 @@ li a {
     text-align: center;
     padding: 14px 8px;
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
 }
 
-.horizontal-bar-right-item a:hover, .horizontal-bar-left-item a:hover {
+.horizontal-bar-right-item a:hover, .horizontal-bar-left-item a:hover,
+.horizontal-bar-bottomright-item a:hover, .horizontal-bar-bottomleft-item a:hover {
     color: grey;
     text-decoration: underline;
 }

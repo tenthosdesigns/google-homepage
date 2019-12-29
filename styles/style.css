@@ -1,3 +1,45 @@
+.horizontal-bar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.horizontal-bar-item {
+    float: right;
+}
+
+.horizontal-bar-item a {
+    /* Text style */
+    font-family: arial, sans-serif;
+    font-size: 13px;
+
+    /* Box style */
+    display: block;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+}
+
+.horizontal-bar-item a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+#sign-in {
+    color: white;
+    font-weight: bold;
+
+    background-color: rgb(70, 131, 234);
+    padding: 8px 14px;
+    margin: 6px;
+    border-radius: 2px;
+}
+
+horizontal-bar-item #sign-in a:hover {
+
+}
+
 #main-logo {
     /* Rescale logo */
     --main-logo-pc-adjustment: 272px;
@@ -5,7 +47,7 @@
     width: var(--main-logo-pc-adjustment);
 
     /* Position logo */
-    padding-top: 190px;
+    padding-top: 160px;
     display: block;
     margin: auto;
 
